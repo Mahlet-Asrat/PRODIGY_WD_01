@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body class="all_support bodyy" id="body" >
+
+    <header class="header"  id="header"> 
+        <div class="content">
+            <a href="https://www.google.com/imgres?q=chocolate%20brand%20name&imgurl=https%3A%2F%2Fwww.yardbarker.com%2Fmedia%2F4%2F4%2F44ccd615f2210a7cd089a2d002b817e6bba23f67%2Fthumb_16x9%2FGettyImages-452235886.jpg&imgrefurl=https%3A%2F%2Fwww.yardbarker.com%2Flifestyle%2Farticles%2Four_20_favorite_brands_of_chocolate%2Fs1__25606490&docid=82g_cS7WD6rsZM&tbnid=iiprIEtqg_QolM&vet=12ahUKEwjWjvXJv-KHAxWQzAIHHULlDEgQM3oECEsQAA..i&w=1600&h=900&hcb=2&ved=2ahUKEwjWjvXJv-KHAxWQzAIHHULlDEgQM3oECEsQAA" class="logo-link">ChocoLuxe</a>
+        <ul class="navigation" id="navigation">
+            <li class="link"> <a href="./land.html"> Home </a></li>
+            <li class="link"><a href="./ingredients.html"> Ingredients </a> </li>
+            <li class="link supp"><a href="./support.html"> Contact Us </a></li>
+            <div class="switch">
+                <span class="icon moon" id="moon" onclick="darken()"> <i class="fa fa-moon"></i></span>
+                <span class="icon sun" id="sun" onclick="lighten()"> <i class="fa fa-sun"></i></span>
+            </div>
+            <li class="link btn-link"><button class="btn"> Discover </button></li>
+
+            <div class="mobile" id="close" onclick="customClose()">
+                <i class="fa fa-close"></i>
+            </div>
+
+        </ul>
+
+        <div class="mobile" id="bars" onclick="myCustom()">
+            <i class="fa fa-bars"></i>
+        </div>
+        </div>
+    </header>
+
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2> Did You Like It? </h2>
+                <hr> 
+            </div>
+            <input type="hidden" name="access_key" value="d13c5cbc-0131-47b9-9581-5579f445af89">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder=" Your Message to us" class="contact-inputs" required></textarea>
+            <button type="submit" > Send ➜ </button>
+        </form>
+        <div class="contact-right">
+            <img src="../asset/Choco_bar.png">
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4> ChocoLuxe</h4>
+                    <ul>
+                        <li> <a href="#"> about us</a></li>
+                        <li> <a href="#"> our service</a></li>
+                        <li> <a href="#"> privacy policy</a></li>
+                        <li> <a href="#"> affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> get help</h4>
+                    <ul>
+                        <li> <a href="#"> FAQ</a></li>
+                        <li> <a href="#"> shipping</a></li>
+                        <li> <a href="#"> returns</a></li>
+                        <li> <a href="#"> order status</a></li>
+                        <li> <a href="#"> payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4> online Shopping</h4>
+                    <ul>
+                        <li> <a href="#"> Almond Chocolate</a></li>
+                        <li> <a href="#"> Cocunut Chocolate</a></li>
+                        <li> <a href="#"> Chestnut Chocolate</a></li>
+                        <li> <a href="#">Pure Chocolate</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    
+    </footer>
+    
+</body>
+
+<script src="../land.js"></script>
+
+</html>
